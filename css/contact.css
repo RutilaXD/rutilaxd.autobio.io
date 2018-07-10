@@ -69,7 +69,7 @@ h2,h3 {
 }
 
 .image#rulooo{
-	background-image: url('../img/rulooo.jpg');
+	background-image: url('../img/rulooo.JPG');
 	background-size: cover;
 	transform: rotate(90deg);	
 }
