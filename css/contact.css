@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+fieldset {
+	width: 80%;
+    font-size: larger;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 8%;
+    border-color: #20581f;
+}
+
+input, textarea {
+	font-size: larger;
+	background-color: #e0dbd9;
+}
+
+.contacts {
+	width: 100%;
+	display: inline-flex;
+	background-color: darkkhaki;
+}
+
+.forma {
+	width: 50%;
+}
+
+.otro{
+	width: 50%;
+}
+
+.image-contact {
+	width: 80%;
+	display: inline-flex;
+	margin: 5% 0 0 15%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h2,h3 {
+	margin-top: 10%;
+	text-align: center;
+}
+
+.opcion {
+	width: 150px;
+	height: 150px;
+	margin-left: 10%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.image {
+	height: 120px;
+	width: 120px;
+	border-radius: 60px;
+	margin: auto;
+	/*background-color: maroon;*/
+}
+
+.image#rulo{
+	background-image: url('../img/rulo.jpg');
+	background-size: cover;
+}
+
+.image#rulooo{
+	background-image: url('../img/rulooo.jpg');
+	background-size: cover;
+	transform: rotate(90deg);	
+}
+
+input[type="text"], input[list="servicios"]{
+	border-radius: 5px;
+	border-style: groove;
+	width: 100%;
+
+}
+
+input[type="submit"]{
+	padding: 5px;
+	width: 30%;
+	font-family: 'Muli', sans-serif;
+	background-color: #29481e;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+	margin-top: 1%;
+	margin-left: 30%;
+}
+
+.datos {
+	width: 60%;
+	margin: auto;
+}
+
+legend {
+	text-align: center;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+}
+
+.description {
+	text-align: center;
+	width:100%;
+	height: 700px;
+	background-image: url('../img/contacto.jpg');
+	background-size: cover;
+}
+
+.bigtitle {
+	font-size: -webkit-xxx-large;
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 35%;
+    color: white;
+}
